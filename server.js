@@ -166,4 +166,4 @@ app.post("/register", checkNotAuthenticated,function (req, res) {
     })
 
 })
-app.listen(80)
+app.listen(process.env.PORT||80)
